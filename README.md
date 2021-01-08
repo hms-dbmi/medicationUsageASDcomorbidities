@@ -11,6 +11,11 @@ library("FactToCube")
 library("ggplot2")
 library("plotly")
 library("ggalluvial")
+library("stringr")
+library("UpSetR")
+library("RColorBrewer")
+library("networkD3")
+library("webshot)
 ```
 
 ## Authorizations
@@ -21,14 +26,12 @@ The jupyter notebook 1.ASDcohortSelection comprises all the code used for obtain
 
 The jupyter notebook 2.ASDcohortDemographics comprises all the SQL code to describe the demographics of the ASD cohort selection in terms ofL gender distribution, age at first diagnosis, and regional distribution across the U.S.
 
-The jupyter notebook 3.DrugFrequency comprises the SQL and R code to evaluate each of the target study drugs in the ASD cohort, and the analysis and visualization of the drug use overtime through Sankey and UpSetR diagrams.
+The jupyter notebook 3.DrugFrequencyAuthomatic comprises the SQL and R code to evaluate each of the target study drugs in the ASD cohort, and the analysis and visualization of the drug use overtime through Sankey and UpSetR diagrams.
 
-The jupyter notebook 4.ComorbidityAnalysisByMedication comprises all the SQL code required to estimate the number of patients having each comorbidity in each of the medication groups, considering a medication group all the patients taking only that specific drug.
-
-The jupyter notebook 5.ComorbidityAnalysis_HeatmapRepresentation comprises the R code to estimate the prevalence of each comorbidity in each of the medication groups and the posterior representation in a heatmap plot.
+The jupyter notebook 4.ComorbidityAnalysisByMedicationAuthomatic.ipynb comprises all the SQL code required to estimate the number of patients having each comorbidity in each of the medication groups, considering a medication group all the patients taking only that specific drug. It also contains the R code for the posterior representation in a heatmap plot.
 
 ## Publication
-This code supports the analysis presented in: "Medication Usage in the Treatment of Co-Occurring Conditions in Autism Spectrum Disorder" (publication to come).
+This code supports the analysis presented in: "Medication Use in the Management of Comorbidities among Individuals with Autism Spectrum Disorder from a Large Nationwide Insurance Database (2014 – 2019)" (publication under revision).
 
 ## License
 Licensed under the Apache License, Version 2.0 (the "License");

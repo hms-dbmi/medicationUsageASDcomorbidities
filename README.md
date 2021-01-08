@@ -1,7 +1,7 @@
 # medicationUsageASDcomorbidities
-Jupyter Notebooks for conducting analysis on medication usage in the treatment of co-occurring conditions in Autism Spectrum Disorder on a claim database.
+Jupyter Notebooks for conducting analysis on medication usage in the treatment of co-occurring conditions in Autism Spectrum Disorder on a claims database.
 
-## Prerequisits
+## Prerequisites
 The following libraries must be installed:
 ```bash
 library("devtools")
@@ -19,12 +19,12 @@ library("webshot)
 ```
 
 ## Authorizations
-- To have access to the claim database, approval is required. 
+- To have access to the claims database, approval is required. 
 
 ## How to
-The jupyter notebook 1.ASDcohortSelection comprises all the code used for obtain our sample cohor of patients diagnosed with ASD. It comprises the SQL code queries. 
+The jupyter notebook 1.ASDcohortSelection comprises all the code used for obtain our sample cohort of patients diagnosed with ASD. It comprises the SQL code queries. 
 
-The jupyter notebook 2.ASDcohortDemographics comprises all the SQL code to describe the demographics of the ASD cohort selection in terms ofL gender distribution, age at first diagnosis, and regional distribution across the U.S.
+The jupyter notebook 2.ASDcohortDemographics comprises all the SQL code to describe the demographics of the ASD cohort selection in terms of gender distribution, age at first diagnosis, and regional distribution across the U.S.
 
 The jupyter notebook 3.DrugFrequencyAuthomatic comprises the SQL and R code to evaluate each of the target study drugs in the ASD cohort, and the analysis and visualization of the drug use overtime through Sankey and UpSetR diagrams.
 

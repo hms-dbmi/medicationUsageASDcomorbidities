@@ -31,7 +31,10 @@ The jupyter notebook 3.DrugFrequencyAuthomatic comprises the SQL and R code to e
 The jupyter notebook 4.ComorbidityAnalysisByMedicationAuthomatic.ipynb comprises all the SQL code required to estimate the number of patients having each comorbidity in each of the medication groups, considering a medication group all the patients taking only that specific drug. It also contains the R code for the posterior representation in a heatmap plot.
 
 ## Publication
-This code supports the analysis presented in: "Medication Use in the Management of Comorbidities among Individuals with Autism Spectrum Disorder from a Large Nationwide Insurance Database (2014 – 2019)" (publication under revision).
+This code supports the analysis presented in: "Medication Use in the Management of Comorbidities among Individuals with Autism Spectrum Disorder from a Large Nationwide Insurance Database (2014 – 2019)" https://jamanetwork.com/journals/jamapediatrics/fullarticle/2780352 
+
+### Citation: 
+Feroe, A.G., Uppal, N., Gutiérrez-Sacristán, A., Mousavi, S., Greenspun, P., Surati, R., Kohane, I.S. and Avillach, P., 2021. Medication use in the management of comorbidities among individuals with autism spectrum disorder from a large nationwide insurance database. JAMA pediatrics, 175(9), pp.957-965.
 
 ## License
 Licensed under the Apache License, Version 2.0 (the "License");
